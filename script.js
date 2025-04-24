@@ -1,6 +1,5 @@
-
 document.addEventListener("DOMContentLoaded", () => {
-  // ✅ 1. Alert When Form is Submitted
+  // Alert When Form is Submitted
   const form = document.querySelector("form");
   if (form) {
     form.addEventListener("submit", () => {
@@ -8,7 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
-  // ✅ 3. Fade In Destination Images on Scroll (bonus interactivity)
+  // Fade In Destination Images on Scroll (bonus interactivity)
   const destinations = document.querySelectorAll(".destination");
 
   const revealOnScroll = () => {
