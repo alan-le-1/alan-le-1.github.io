@@ -1,0 +1,5 @@
+
+/* Base styles and layout omitted for brevity - this is the relevant improvement */
+.destination {
+  transition: all 0.6s ease-out;
+}
