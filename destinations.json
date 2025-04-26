@@ -1,0 +1,17 @@
+[
+  {
+    "city": "New York",
+    "description": "The city that never sleeps!",
+    "image": "images/newyork.jpeg"
+  },
+  {
+    "city": "Paris",
+    "description": "Romance in every corner.",
+    "image": "images/paris.jpeg"
+  },
+  {
+    "city": "Tokyo",
+    "description": "A blend of tradition and technology.",
+    "image": "images/tokyo.jpeg"
+  }
+]
