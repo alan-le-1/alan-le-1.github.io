@@ -9,6 +9,7 @@
 <body>
 
   <header>
+    <img src="images/logo.png" alt="TriplE logo" class="logo">
     <h1>TriplE <br><small>Eat, Explore, Experience</small></h1>
     <nav>
       <ul>
@@ -23,27 +24,14 @@
   <section class="hero">
     <h2>Find Your Perfect Stay</h2>
     <form class="search-form">
-      <input type="text" placeholder="Where are you going?" required>
-      <input type="date" placeholder="Check-in" required>
-      <input type="date" placeholder="Check-out" required>
-      <button type="submit">Search</button>
+      <input type="text" id="searchInput" placeholder="Search for a city..." required>
+      <button type="button" id="searchButton">Search</button>
     </form>
   </section>
 
   <section class="featured">
     <h2>Top Destinations</h2>
-    <div class="destination">
-      <img src="images/newyork.jpeg" alt="Skyline of New York City">
-      <p>New York - The city that never sleeps!</p>
-    </div>
-    <div class="destination">
-      <img src="images/paris.jpeg" alt="Eiffel Tower in Paris at sunset">
-      <p>Paris - Romance in every corner.</p>
-    </div>
-    <div class="destination">
-      <img src="images/tokyo.jpeg" alt="Tokyo cityscape with cherry blossoms">
-      <p>Tokyo - A blend of tradition and technology.</p>
-    </div>
+    <div id="destinationsContainer"></div>
   </section>
 
   <section id="contact" class="contact-section">
